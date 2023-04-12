@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Search from "./Search";
 import SearchResults from "./SearchResults";
-import "../styles/app.css";
 import logo from "../assets/200424060716-nasa-worm-logo-removebg-preview.png";
+import "../styles/app.css";
 
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
